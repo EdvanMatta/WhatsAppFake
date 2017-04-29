@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">WhatsAppFake</string>
+    <string name="botao_cadastrar">CADASTRAR</string>
+    <string name="botao_verificar">VERIFICAR</string>
 </resources>
