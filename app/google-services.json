@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "855367606757",
+    "firebase_url": "https://whatsappfake-87a79.firebaseio.com",
+    "project_id": "whatsappfake-87a79",
+    "storage_bucket": "whatsappfake-87a79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855367606757:android:421f2b592f9e6ea2",
+        "android_client_info": {
+          "package_name": "aprendabrincando.edvanmatta.com.whatsappfake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855367606757-sv0s8g20jb5i1qb13d3il28a4jrb3idg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "aprendabrincando.edvanmatta.com.whatsappfake",
+            "certificate_hash": "1105a034e2934374311703754c7492676dc80009"
+          }
+        },
+        {
+          "client_id": "855367606757-umrfpj71hqkl93rto1ofbttob95leiul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD95BBLyLXTUkHQNJi5GgNvmrxuOJbHI2c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855367606757-umrfpj71hqkl93rto1ofbttob95leiul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
