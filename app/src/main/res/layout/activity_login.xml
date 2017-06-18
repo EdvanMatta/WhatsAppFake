@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="aprendabrincando.edvanmatta.com.whatsappfake.activity.LoginActivity">
+
+
+    <RelativeLayout
+        android:layout_width="426dp"
+        android:layout_height="618dp"
+        android:background="@color/colorPrimaryWhatsApp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-2dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/larguraLogo"
+            android:layout_height="@dimen/alturaLogo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            app:srcCompat="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/text_nome_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/texto_margem_esquerda"
+            android:layout_marginRight="@dimen/texto_margem_direita"
+            android:layout_marginTop="42dp"
+            android:ems="10"
+            android:hint="Digite seu nome"
+            android:inputType="textPersonName"
+            android:textColor="@color/textColorPrimary" />
+
+        <EditText
+            android:id="@+id/text_cod_pais_id"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="+55"
+            android:inputType="number"
+            android:textColor="@color/textColorPrimary"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/text_nome_id"
+            android:layout_alignStart="@+id/text_nome_id" />
+
+        <EditText
+            android:id="@+id/text_cod_area_id"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bt_cadastrar"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_toEndOf="@+id/text_cod_pais_id"
+            android:layout_toRightOf="@+id/text_cod_pais_id"
+            android:ems="10"
+            android:hint="71"
+            android:inputType="number"
+            android:textColor="@color/textColorPrimary" />
+
+        <EditText
+            android:id="@+id/text_numero_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/text_cod_area_id"
+            android:layout_alignEnd="@+id/text_nome_id"
+            android:layout_alignRight="@+id/text_nome_id"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_toRightOf="@+id/text_cod_area_id"
+            android:ems="10"
+            android:hint="99999-9999"
+            android:inputType="number"
+            android:textColor="@color/textColorPrimary" />
+
+        <Button
+            android:id="@+id/bt_cadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/text_numero_id"
+            android:layout_alignLeft="@+id/text_cod_pais_id"
+            android:layout_alignRight="@+id/text_numero_id"
+            android:layout_alignStart="@+id/text_cod_pais_id"
+            android:layout_below="@+id/text_cod_pais_id"
+            android:layout_marginTop="31dp"
+            android:background="@color/colorPrimaryDarkWhatsApp"
+            android:text="@string/botao_cadastrar"
+            android:textColor="@color/textColorPrimary" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
